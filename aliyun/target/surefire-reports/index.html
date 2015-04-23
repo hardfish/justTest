@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods,   23 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.AliyunApiMetadataTest" hash-for-method="testAliyunApiRegistered">testAliyunApiRegistered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.AliyunApiMetadataTest" hash-for-method="testAllContains">testAllContains</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToNonPayloadHeadersWithStandardMediaType">testAppendVersionToNonPayloadHeadersWithStandardMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToNonPayloadHeadersWithVersionInMediaType">testAppendVersionToNonPayloadHeadersWithVersionInMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToNonPayloadHeadersWithoutHeaders">testAppendVersionToNonPayloadHeadersWithoutHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType">testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToPayloadHeadersWithDefaultPayload">testAppendVersionToPayloadHeadersWithDefaultPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToPayloadHeadersWithStandardPayload">testAppendVersionToPayloadHeadersWithStandardPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToPayloadHeadersWithVersionInPayload">testAppendVersionToPayloadHeadersWithVersionInPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToPayloadHeadersWithoutPayload">testAppendVersionToPayloadHeadersWithoutPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testAppendVersionToPayloadHeadersWithoutVersionInPayload">testAppendVersionToPayloadHeadersWithoutVersionInPayload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AliyunAuthenticationTest" hash-for-method="testAuthenticateWithToken">testAuthenticateWithToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AliyunAuthenticationTest" hash-for-method="testAuthenticateWithoutToken">testAuthenticateWithoutToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testFilterWithAcceptAndContentTypeWithVersion">testFilterWithAcceptAndContentTypeWithVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testFilterWithAcceptAndContentTypeWithoutVersion">testFilterWithAcceptAndContentTypeWithoutVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testFilterWithversionInAccept">testFilterWithversionInAccept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest" hash-for-method="testFilterWithversionInContentType">testFilterWithversionInContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.functions.auth.GetTokenFromApiTest" hash-for-method="testGetTokenWithAuthenticationHttpCookie">testGetTokenWithAuthenticationHttpCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.functions.auth.GetTokenFromApiTest" hash-for-method="testGetTokenWithOtherHeaders">testGetTokenWithOtherHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.functions.auth.GetTokenFromApiTest" hash-for-method="testGetTokenWithOtherHttpCookie">testGetTokenWithOtherHttpCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.functions.auth.GetTokenFromApiTest" hash-for-method="testGetTokenWithoutHeaders">testGetTokenWithoutHeaders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.AliyunApiMetadataTest" hash-for-method="testTransformableToContains">testTransformableToContains</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.jclouds.aliyun.AliyunApiMetadataTest" hash-for-method="testWithId">testWithId</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.aliyun.http.filters.AliyunAuthenticationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthenticateWithToken">
+                  </a> <!-- testAuthenticateWithToken -->
+                  <span class="method-name">testAuthenticateWithToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthenticateWithoutToken">
+                  </a> <!-- testAuthenticateWithoutToken -->
+                  <span class="method-name">testAuthenticateWithoutToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.aliyun.functions.auth.GetTokenFromApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTokenWithAuthenticationHttpCookie">
+                  </a> <!-- testGetTokenWithAuthenticationHttpCookie -->
+                  <span class="method-name">testGetTokenWithAuthenticationHttpCookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTokenWithOtherHeaders">
+                  </a> <!-- testGetTokenWithOtherHeaders -->
+                  <span class="method-name">testGetTokenWithOtherHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTokenWithOtherHttpCookie">
+                  </a> <!-- testGetTokenWithOtherHttpCookie -->
+                  <span class="method-name">testGetTokenWithOtherHttpCookie</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetTokenWithoutHeaders">
+                  </a> <!-- testGetTokenWithoutHeaders -->
+                  <span class="method-name">testGetTokenWithoutHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.aliyun.AliyunApiMetadataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAliyunApiRegistered">
+                  </a> <!-- testAliyunApiRegistered -->
+                  <span class="method-name">testAliyunApiRegistered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllContains">
+                  </a> <!-- testAllContains -->
+                  <span class="method-name">testAllContains</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTransformableToContains">
+                  </a> <!-- testTransformableToContains -->
+                  <span class="method-name">testTransformableToContains</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWithId">
+                  </a> <!-- testWithId -->
+                  <span class="method-name">testWithId</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToNonPayloadHeadersWithStandardMediaType">
+                  </a> <!-- testAppendVersionToNonPayloadHeadersWithStandardMediaType -->
+                  <span class="method-name">testAppendVersionToNonPayloadHeadersWithStandardMediaType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToNonPayloadHeadersWithVersionInMediaType">
+                  </a> <!-- testAppendVersionToNonPayloadHeadersWithVersionInMediaType -->
+                  <span class="method-name">testAppendVersionToNonPayloadHeadersWithVersionInMediaType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToNonPayloadHeadersWithoutHeaders">
+                  </a> <!-- testAppendVersionToNonPayloadHeadersWithoutHeaders -->
+                  <span class="method-name">testAppendVersionToNonPayloadHeadersWithoutHeaders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType">
+                  </a> <!-- testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType -->
+                  <span class="method-name">testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToPayloadHeadersWithDefaultPayload">
+                  </a> <!-- testAppendVersionToPayloadHeadersWithDefaultPayload -->
+                  <span class="method-name">testAppendVersionToPayloadHeadersWithDefaultPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToPayloadHeadersWithStandardPayload">
+                  </a> <!-- testAppendVersionToPayloadHeadersWithStandardPayload -->
+                  <span class="method-name">testAppendVersionToPayloadHeadersWithStandardPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToPayloadHeadersWithVersionInPayload">
+                  </a> <!-- testAppendVersionToPayloadHeadersWithVersionInPayload -->
+                  <span class="method-name">testAppendVersionToPayloadHeadersWithVersionInPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToPayloadHeadersWithoutPayload">
+                  </a> <!-- testAppendVersionToPayloadHeadersWithoutPayload -->
+                  <span class="method-name">testAppendVersionToPayloadHeadersWithoutPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAppendVersionToPayloadHeadersWithoutVersionInPayload">
+                  </a> <!-- testAppendVersionToPayloadHeadersWithoutVersionInPayload -->
+                  <span class="method-name">testAppendVersionToPayloadHeadersWithoutVersionInPayload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterWithAcceptAndContentTypeWithVersion">
+                  </a> <!-- testFilterWithAcceptAndContentTypeWithVersion -->
+                  <span class="method-name">testFilterWithAcceptAndContentTypeWithVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterWithAcceptAndContentTypeWithoutVersion">
+                  </a> <!-- testFilterWithAcceptAndContentTypeWithoutVersion -->
+                  <span class="method-name">testFilterWithAcceptAndContentTypeWithoutVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterWithversionInAccept">
+                  </a> <!-- testFilterWithversionInAccept -->
+                  <span class="method-name">testFilterWithversionInAccept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFilterWithversionInContentType">
+                  </a> <!-- testFilterWithversionInContentType -->
+                  <span class="method-name">testFilterWithversionInContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Surefire suite&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test name=&quot;AliyunApiMetadataTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.aliyun.AliyunApiMetadataTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AliyunApiMetadataTest --&gt;
+  &lt;test name=&quot;GetTokenFromApiTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.aliyun.functions.auth.GetTokenFromApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GetTokenFromApiTest --&gt;
+  &lt;test name=&quot;AliyunAuthenticationTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.aliyun.http.filters.AliyunAuthenticationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AliyunAuthenticationTest --&gt;
+  &lt;test name=&quot;AppendApiVersionToMediaTypeTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AppendApiVersionToMediaTypeTest --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">AliyunApiMetadataTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">GetTokenFromApiTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AliyunAuthenticationTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AppendApiVersionToMediaTypeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">unit</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAliyunApiRegistered</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAllContains</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToNonPayloadHeadersWithStandardMediaType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToNonPayloadHeadersWithVersionInMediaType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToNonPayloadHeadersWithoutHeaders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToPayloadHeadersWithDefaultPayload</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToPayloadHeadersWithStandardPayload</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToPayloadHeadersWithVersionInPayload</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToPayloadHeadersWithoutPayload</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAppendVersionToPayloadHeadersWithoutVersionInPayload</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAuthenticateWithToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAuthenticateWithoutToken</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterWithAcceptAndContentTypeWithVersion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterWithAcceptAndContentTypeWithoutVersion</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterWithversionInAccept</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testFilterWithversionInContentType</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTokenWithAuthenticationHttpCookie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTokenWithOtherHeaders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTokenWithOtherHttpCookie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetTokenWithoutHeaders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTransformableToContains</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testWithId</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetTokenWithAuthenticationHttpCookie')
+data.setCell(0, 2, 'org.jclouds.aliyun.functions.auth.GetTokenFromApiTest')
+data.setCell(0, 3, 84);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGetTokenWithOtherHttpCookie')
+data.setCell(1, 2, 'org.jclouds.aliyun.functions.auth.GetTokenFromApiTest')
+data.setCell(1, 3, 84);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetTokenWithOtherHeaders')
+data.setCell(2, 2, 'org.jclouds.aliyun.functions.auth.GetTokenFromApiTest')
+data.setCell(2, 3, 83);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testGetTokenWithoutHeaders')
+data.setCell(3, 2, 'org.jclouds.aliyun.functions.auth.GetTokenFromApiTest')
+data.setCell(3, 3, 78);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWithId')
+data.setCell(4, 2, 'org.jclouds.aliyun.AliyunApiMetadataTest')
+data.setCell(4, 3, 13);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAliyunApiRegistered')
+data.setCell(5, 2, 'org.jclouds.aliyun.AliyunApiMetadataTest')
+data.setCell(5, 3, 13);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAuthenticateWithToken')
+data.setCell(6, 2, 'org.jclouds.aliyun.http.filters.AliyunAuthenticationTest')
+data.setCell(6, 3, 13);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAllContains')
+data.setCell(7, 2, 'org.jclouds.aliyun.AliyunApiMetadataTest')
+data.setCell(7, 3, 10);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAppendVersionToPayloadHeadersWithStandardPayload')
+data.setCell(8, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(8, 3, 7);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTransformableToContains')
+data.setCell(9, 2, 'org.jclouds.aliyun.AliyunApiMetadataTest')
+data.setCell(9, 3, 5);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAuthenticateWithoutToken')
+data.setCell(10, 2, 'org.jclouds.aliyun.http.filters.AliyunAuthenticationTest')
+data.setCell(10, 3, 5);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAppendVersionToPayloadHeadersWithDefaultPayload')
+data.setCell(11, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(11, 3, 5);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType')
+data.setCell(12, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testAppendVersionToNonPayloadHeadersWithStandardMediaType')
+data.setCell(13, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testAppendVersionToNonPayloadHeadersWithVersionInMediaType')
+data.setCell(14, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAppendVersionToPayloadHeadersWithoutPayload')
+data.setCell(15, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testFilterWithAcceptAndContentTypeWithVersion')
+data.setCell(16, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testAppendVersionToNonPayloadHeadersWithoutHeaders')
+data.setCell(17, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testFilterWithversionInAccept')
+data.setCell(18, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testAppendVersionToPayloadHeadersWithVersionInPayload')
+data.setCell(19, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testAppendVersionToPayloadHeadersWithoutVersionInPayload')
+data.setCell(20, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testFilterWithversionInContentType')
+data.setCell(21, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testFilterWithAcceptAndContentTypeWithoutVersion')
+data.setCell(22, 2, 'org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest')
+data.setCell(22, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 413 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.aliyun.AliyunApiMetadataTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAliyunApiRegistered</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAllContains</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTransformableToContains</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWithId</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.aliyun.functions.auth.GetTokenFromApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetTokenWithAuthenticationHttpCookie</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTokenWithOtherHeaders</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTokenWithOtherHttpCookie</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetTokenWithoutHeaders</span>
+                <span class="method-start">33 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.aliyun.http.filters.AliyunAuthenticationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAuthenticateWithToken</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAuthenticateWithoutToken</span>
+                <span class="method-start">121 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.jclouds.aliyun.http.filters.AppendApiVersionToMediaTypeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToNonPayloadHeadersWithoutHeaders</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToNonPayloadHeadersWithoutVersionInMediaType</span>
+                <span class="method-start">234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToNonPayloadHeadersWithStandardMediaType</span>
+                <span class="method-start">235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToNonPayloadHeadersWithVersionInMediaType</span>
+                <span class="method-start">235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToPayloadHeadersWithDefaultPayload</span>
+                <span class="method-start">235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToPayloadHeadersWithStandardPayload</span>
+                <span class="method-start">237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToPayloadHeadersWithVersionInPayload</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToPayloadHeadersWithoutVersionInPayload</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterWithAcceptAndContentTypeWithVersion</span>
+                <span class="method-start">241 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAppendVersionToPayloadHeadersWithoutPayload</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterWithAcceptAndContentTypeWithoutVersion</span>
+                <span class="method-start">242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterWithversionInAccept</span>
+                <span class="method-start">243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testFilterWithversionInContentType</span>
+                <span class="method-start">244 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

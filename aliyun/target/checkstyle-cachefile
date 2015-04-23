@@ -1,0 +1,18 @@
+#Thu Apr 23 19:41:29 CST 2015
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\handlers\\AliyunErrorHandler.java=1429788792358
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\functions\\auth\\GetTokenFromApi.java=1429788792339
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\test\\java\\org\\jclouds\\abiquo\\AliyunApiMetadataTest.java=1429789038334
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\test\\java\\org\\jclouds\\abiquo\\http\\filters\\AliyunAuthenticationTest.java=1429789038306
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\config\\AliyunAuthenticationModule.java=1429788598829
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\config\\Authentication.java=1429788792319
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\AliyunApiMetadata.java=1429788792352
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\http\\filters\\AppendApiVersionToMediaType.java=1429788792371
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\functions\\AppendApiVersionToAliyunMimeType.java=1429788792345
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\http\\filters\\AliyunAuthentication.java=1429788792362
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\config\\AliyunProperties.java=1429788792368
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\config\\AliyunHttpApiModule.java=1429788622032
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\test\\java\\org\\jclouds\\abiquo\\http\\filters\\AppendApiVersionToMediaTypeTest.java=1429789038339
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\functions\\auth\\GetTokenFromCredentials.java=1429788792331
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\main\\java\\org\\jclouds\\aliyun\\AliyunApi.java=1429788792365
+configuration*?=D0921FAD7524E44259E5133F054DA335E5BF0CE2
+D\:\\Source\\jclouds-labs-master\\aliyun\\src\\test\\java\\org\\jclouds\\abiquo\\functions\\auth\\GetTokenFromApiTest.java=1429789038318

@@ -1,0 +1,16 @@
+org\jclouds\aliyun\http\filters\AppendApiVersionToMediaType.class
+org\jclouds\aliyun\functions\AppendApiVersionToAliyunMimeType.class
+org\jclouds\aliyun\config\AliyunHttpApiModule.class
+org\jclouds\aliyun\config\AliyunAuthenticationModule$1.class
+org\jclouds\aliyun\functions\auth\GetTokenFromApi.class
+org\jclouds\aliyun\functions\auth\GetTokenFromApi$1.class
+org\jclouds\aliyun\AliyunApiMetadata$Builder.class
+META-INF\services\org.jclouds.apis.ApiMetadata
+org\jclouds\aliyun\config\AliyunProperties.class
+org\jclouds\aliyun\AliyunApiMetadata.class
+org\jclouds\aliyun\config\AliyunAuthenticationModule.class
+org\jclouds\aliyun\handlers\AliyunErrorHandler.class
+org\jclouds\aliyun\config\Authentication.class
+org\jclouds\aliyun\http\filters\AliyunAuthentication.class
+org\jclouds\aliyun\AliyunApi.class
+org\jclouds\aliyun\functions\auth\GetTokenFromCredentials.class

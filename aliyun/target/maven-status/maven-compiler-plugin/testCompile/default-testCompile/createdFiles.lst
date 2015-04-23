@@ -1,0 +1,5 @@
+org\jclouds\aliyun\http\filters\AppendApiVersionToMediaTypeTest.class
+org\jclouds\aliyun\AliyunApiMetadataTest.class
+org\jclouds\aliyun\functions\auth\GetTokenFromApiTest.class
+org\jclouds\aliyun\http\filters\AppendApiVersionToMediaTypeTest$1.class
+org\jclouds\aliyun\http\filters\AliyunAuthenticationTest.class

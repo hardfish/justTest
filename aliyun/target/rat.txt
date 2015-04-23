@@ -1,0 +1,54 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2015-04-23T19:41:28+08:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 17
+
+Apache Licensed: 17
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    pom.xml
+  AL    src/main/java/org/jclouds/aliyun/AliyunApi.java
+  AL    src/main/java/org/jclouds/aliyun/AliyunApiMetadata.java
+  AL    src/main/java/org/jclouds/aliyun/config/AliyunAuthenticationModule.java
+  AL    src/main/java/org/jclouds/aliyun/config/AliyunHttpApiModule.java
+  AL    src/main/java/org/jclouds/aliyun/config/AliyunProperties.java
+  AL    src/main/java/org/jclouds/aliyun/config/Authentication.java
+  AL    src/main/java/org/jclouds/aliyun/functions/AppendApiVersionToAliyunMimeType.java
+  AL    src/main/java/org/jclouds/aliyun/functions/auth/GetTokenFromApi.java
+  AL    src/main/java/org/jclouds/aliyun/functions/auth/GetTokenFromCredentials.java
+  AL    src/main/java/org/jclouds/aliyun/handlers/AliyunErrorHandler.java
+  AL    src/main/java/org/jclouds/aliyun/http/filters/AliyunAuthentication.java
+  AL    src/main/java/org/jclouds/aliyun/http/filters/AppendApiVersionToMediaType.java
+  AL    src/test/java/org/jclouds/abiquo/AliyunApiMetadataTest.java
+  AL    src/test/java/org/jclouds/abiquo/functions/auth/GetTokenFromApiTest.java
+  AL    src/test/java/org/jclouds/abiquo/http/filters/AliyunAuthenticationTest.java
+  AL    src/test/java/org/jclouds/abiquo/http/filters/AppendApiVersionToMediaTypeTest.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

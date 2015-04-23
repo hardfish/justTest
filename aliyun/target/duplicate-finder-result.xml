@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="aliyun" groupId="org.apache.jclouds.labs" version="2.0.0-SNAPSHOT" type="bundle"/>
+    <configuration skip="false" quiet="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="true" failBuildInCaseOfDifferentContentConflict="false" failBuildInCaseOfEqualContentConflict="false" failBuildInCaseOfConflict="true" printEqualFiles="false" preferLocal="true" includeBootClasspath="false" bootClasspathProperty="sun.boot.class.path" useDefaultResourceIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="D:\Source\jclouds-labs-master\aliyun\target\duplicate-finder-result.xml">
+        <ignoredResourcePatterns>
+            <ignoredResourcePattern>about\.html</ignoredResourcePattern>
+            <ignoredResourcePattern>log4j.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>os.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>virtualhardwaresection.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>logback.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>amzn_images.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>test.jks</ignoredResourcePattern>
+            <ignoredResourcePattern>test</ignoredResourcePattern>
+            <ignoredResourcePattern>CreateInternetService-options-test.xml</ignoredResourcePattern>
+            <ignoredResourcePattern>.gitattributes</ignoredResourcePattern>
+            <ignoredResourcePattern>functions/.gitattributes</ignoredResourcePattern>
+            <ignoredResourcePattern>OSGI-OPT/bnd.bnd</ignoredResourcePattern>
+            <ignoredResourcePattern>META-INF/BCKEY.DSA</ignoredResourcePattern>
+            <ignoredResourcePattern>META-INF/BCKEY.SF</ignoredResourcePattern>
+        </ignoredResourcePatterns>
+        <conflictingDependencies>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false" bootClasspath="false">
+                <dependencies>
+                    <dependency artifactId="cloudsigma" groupId="org.apache.jclouds.api" version="2.0.0-SNAPSHOT" versionRange="2.0.0-SNAPSHOT" type="jar"/>
+                    <dependency artifactId="cloudsigma-lvs" groupId="org.apache.jclouds.provider" version="2.0.0-SNAPSHOT" versionRange="2.0.0-SNAPSHOT" type="jar"/>
+                    <dependency artifactId="cloudsigma-zrh" groupId="org.apache.jclouds.provider" version="2.0.0-SNAPSHOT" versionRange="2.0.0-SNAPSHOT" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>org.jclouds.cloudsigma</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false" bootClasspath="false">
+                <dependencies>
+                    <dependency artifactId="appengine-api-1.0-sdk" groupId="com.google.appengine" version="1.6.5" versionRange="1.6.5" type="jar"/>
+                    <dependency artifactId="appengine-testing" groupId="com.google.appengine" version="1.6.5" versionRange="1.6.5" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>com.google</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+            <conflictingDependency currentProject="false" currentProjectIncluded="false" wildcard="false" bootClasspath="false">
+                <dependencies>
+                    <dependency artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                    <dependency artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                </dependencies>
+                <packages>
+                    <package>com.jcraft.jsch.agentproxy</package>
+                </packages>
+                <classes/>
+                <resources/>
+                <resourcePatterns/>
+            </conflictingDependency>
+        </conflictingDependencies>
+        <ignoredDependencies/>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>about\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>log4j.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>os.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>virtualhardwaresection.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>logback.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>amzn_images.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>test.jks</ignoredResourcePattern>
+                <ignoredResourcePattern>test</ignoredResourcePattern>
+                <ignoredResourcePattern>CreateInternetService-options-test.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>functions/.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>OSGI-OPT/bnd.bnd</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.DSA</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.SF</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="runtime" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>about\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>log4j.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>os.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>virtualhardwaresection.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>logback.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>amzn_images.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>test.jks</ignoredResourcePattern>
+                <ignoredResourcePattern>test</ignoredResourcePattern>
+                <ignoredResourcePattern>CreateInternetService-options-test.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>functions/.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>OSGI-OPT/bnd.bnd</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.DSA</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.SF</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="test" conflictState="no-conflict" failed="false">
+            <conflicts>
+                <conflict name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8, com.jcraft:jsch.agentproxy.core:0.0.8">
+                    <conflictResults>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.AgentProxy" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.AgentProxyException" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.Buffer" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.Connector" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.Identity" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                        <conflictResult name="com.jcraft.jsch.agentproxy.USocketFactory" type="classes" excepted="true" failed="false" printed="false" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.jcraft:jsch.agentproxy.connector-factory:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.connector-factory" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.jcraft:jsch.agentproxy.core:0.0.8" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="jsch.agentproxy.core" groupId="com.jcraft" version="0.0.8" versionRange="0.0.8" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>about\.html</ignoredResourcePattern>
+                <ignoredResourcePattern>log4j.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>os.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>virtualhardwaresection.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>logback.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>amzn_images.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>test.jks</ignoredResourcePattern>
+                <ignoredResourcePattern>test</ignoredResourcePattern>
+                <ignoredResourcePattern>CreateInternetService-options-test.xml</ignoredResourcePattern>
+                <ignoredResourcePattern>.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>functions/.gitattributes</ignoredResourcePattern>
+                <ignoredResourcePattern>OSGI-OPT/bnd.bnd</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.DSA</ignoredResourcePattern>
+                <ignoredResourcePattern>META-INF/BCKEY.SF</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <classpathElements type="classes">
+                <classpathElement name="com.jcraft.jsch.agentproxy.AgentProxy">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+                <classpathElement name="com.jcraft.jsch.agentproxy.AgentProxyException">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+                <classpathElement name="com.jcraft.jsch.agentproxy.Buffer">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+                <classpathElement name="com.jcraft.jsch.agentproxy.Connector">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+                <classpathElement name="com.jcraft.jsch.agentproxy.Identity">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+                <classpathElement name="com.jcraft.jsch.agentproxy.USocketFactory">
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.core\0.0.8\jsch.agentproxy.core-0.0.8.jar</file>
+                    <file>C:\Users\X0269\.m2\repository\com\jcraft\jsch.agentproxy.connector-factory\0.0.8\jsch.agentproxy.connector-factory-0.0.8.jar</file>
+                </classpathElement>
+            </classpathElements>
+            <classpathElements type="resources"/>
+        </result>
+    </results>
+</duplicate-finder-result>

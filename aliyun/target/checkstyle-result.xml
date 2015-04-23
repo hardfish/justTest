@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.1.1">
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\AliyunApi.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\AliyunApiMetadata.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\config\AliyunAuthenticationModule.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\config\AliyunHttpApiModule.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\config\AliyunProperties.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\config\Authentication.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\functions\AppendApiVersionToAliyunMimeType.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\functions\auth\GetTokenFromApi.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\functions\auth\GetTokenFromCredentials.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\handlers\AliyunErrorHandler.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\http\filters\AliyunAuthentication.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\main\java\org\jclouds\aliyun\http\filters\AppendApiVersionToMediaType.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\test\java\org\jclouds\abiquo\AliyunApiMetadataTest.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\test\java\org\jclouds\abiquo\functions\auth\GetTokenFromApiTest.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\test\java\org\jclouds\abiquo\http\filters\AliyunAuthenticationTest.java">
+</file>
+<file name="D:\Source\jclouds-labs-master\aliyun\src\test\java\org\jclouds\abiquo\http\filters\AppendApiVersionToMediaTypeTest.java">
+</file>
+</checkstyle>
