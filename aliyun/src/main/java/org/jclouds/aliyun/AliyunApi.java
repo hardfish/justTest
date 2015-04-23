@@ -16,11 +16,15 @@
  */
 package org.jclouds.aliyun;
 
+import com.sun.javafx.beans.annotations.Delegate;
+import org.jclouds.aliyun.features.InstanceApi;
+
 import java.io.Closeable;
 
 /**
  * Provides access to Aliyun.
  */
 public interface AliyunApi extends Closeable {
-
+    @Delegate
+    InstanceApi getInstanceApi();
 }

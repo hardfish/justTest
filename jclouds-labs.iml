@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/aliyun/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aliyun/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/aliyun-ecs/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -24,5 +25,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:1.7.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-guava:1.3.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="module" module-name="jclouds-core" />
+    <orderEntry type="library" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.6.5" level="project" />
+    <orderEntry type="library" name="Maven: com.google.appengine:appengine-testing:1.6.5" level="project" />
+    <orderEntry type="library" name="Maven: com.google.auto.value:auto-value:1.0" level="project" />
+    <orderEntry type="library" name="jclouds" level="application" />
+    <orderEntry type="library" name="Maven: com.google.auto.service:auto-service:1.0-rc2" level="project" />
   </component>
 </module>
