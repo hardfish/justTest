@@ -1,0 +1,10 @@
+#surefire_0
+#Thu Apr 23 19:16:28 CST 2015
+maven.surefire.debug=true
+jclouds.wire.httpstream.url=http\://archive.apache.org/dist/commons/logging/binaries/commons-logging-1.1.1-bin.tar.gz
+user.dir=D\:\\Source\\jclouds-labs-master\\abiquo
+idea.version=14.0.2
+jclouds.wire.httpstream.md5=e5de09672af9b386c30a311654d8541a
+localRepository=C\:\\Users\\X0269\\.m2\\repository
+basedir=D\:\\Source\\jclouds-labs-master\\abiquo
+sun.net.http.allowRestrictedHeaders=true

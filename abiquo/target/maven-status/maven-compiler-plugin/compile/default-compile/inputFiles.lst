@@ -1,0 +1,12 @@
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\config\AbiquoHttpApiModule.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\AbiquoApi.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\functions\AppendApiVersionToAbiquoMimeType.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\functions\auth\GetTokenFromCredentials.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\handlers\AbiquoErrorHandler.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\functions\auth\GetTokenFromApi.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\http\filters\AppendApiVersionToMediaType.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\AbiquoApiMetadata.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\config\Authentication.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\config\AbiquoAuthenticationModule.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\config\AbiquoProperties.java
+D:\Source\jclouds-labs-master\abiquo\src\main\java\org\jclouds\abiquo\http\filters\AbiquoAuthentication.java

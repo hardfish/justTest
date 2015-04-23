@@ -1,0 +1,16 @@
+org\jclouds\abiquo\config\AbiquoHttpApiModule.class
+org\jclouds\abiquo\AbiquoApiMetadata$Builder.class
+org\jclouds\abiquo\AbiquoApiMetadata.class
+org\jclouds\abiquo\functions\auth\GetTokenFromApi.class
+META-INF\services\org.jclouds.apis.ApiMetadata
+org\jclouds\abiquo\config\AbiquoAuthenticationModule.class
+org\jclouds\abiquo\functions\auth\GetTokenFromCredentials.class
+org\jclouds\abiquo\AbiquoApi.class
+org\jclouds\abiquo\config\AbiquoAuthenticationModule$1.class
+org\jclouds\abiquo\config\Authentication.class
+org\jclouds\abiquo\handlers\AbiquoErrorHandler.class
+org\jclouds\abiquo\config\AbiquoProperties.class
+org\jclouds\abiquo\functions\auth\GetTokenFromApi$1.class
+org\jclouds\abiquo\http\filters\AppendApiVersionToMediaType.class
+org\jclouds\abiquo\http\filters\AbiquoAuthentication.class
+org\jclouds\abiquo\functions\AppendApiVersionToAbiquoMimeType.class

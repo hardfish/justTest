@@ -1,0 +1,5 @@
+org\jclouds\abiquo\http\filters\AppendApiVersionToMediaTypeTest$1.class
+org\jclouds\abiquo\functions\auth\GetTokenFromApiTest.class
+org\jclouds\abiquo\AbiquoApiMetadataTest.class
+org\jclouds\abiquo\http\filters\AbiquoAuthenticationTest.class
+org\jclouds\abiquo\http\filters\AppendApiVersionToMediaTypeTest.class
