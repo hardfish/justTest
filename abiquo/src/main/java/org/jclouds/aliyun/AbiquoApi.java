@@ -14,25 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jclouds.abiquo.config;
+package org.jclouds.aliyun;
+
+import java.io.Closeable;
 
 /**
- * Configuration properties and constants used in Abiquo connections.
+ * Provides access to Abiquo.
  */
-public final class AbiquoProperties {
-   /**
-    * Credential type to be used to authenticate against the Abiquo Api.
-    * <p>
-    * Valid values: password, token (deprecated).
-    */
-   public static final String CREDENTIAL_TYPE = "abiquo.credential-type";
+public interface AbiquoApi extends Closeable {
 
-   /**
-    * The name of the Abiquo logger.
-    */
-   public static final String ABIQUO_LOGGER = "jclouds.abiquo";
-
-   private AbiquoProperties() {
-      throw new AssertionError("intentionally unimplemented");
-   }
 }

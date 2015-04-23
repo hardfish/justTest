@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jclouds.abiquo.config;
+package org.jclouds.aliyun.config;
 
 import static com.google.common.base.Preconditions.checkArgument;
-import static org.jclouds.abiquo.config.AbiquoProperties.CREDENTIAL_TYPE;
+import static org.jclouds.aliyun.config.AbiquoProperties.CREDENTIAL_TYPE;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -25,8 +25,8 @@ import java.util.concurrent.TimeUnit;
 import javax.inject.Named;
 import javax.inject.Singleton;
 
-import org.jclouds.abiquo.functions.auth.GetTokenFromApi;
-import org.jclouds.abiquo.functions.auth.GetTokenFromCredentials;
+import org.jclouds.aliyun.functions.auth.GetTokenFromApi;
+import org.jclouds.aliyun.functions.auth.GetTokenFromCredentials;
 import org.jclouds.domain.Credentials;
 import org.jclouds.location.Provider;
 

@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jclouds.abiquo;
+package org.jclouds.aliyun;
 
-import static org.jclouds.abiquo.config.AbiquoProperties.CREDENTIAL_TYPE;
+import static org.jclouds.aliyun.config.AbiquoProperties.CREDENTIAL_TYPE;
 
 import java.net.URI;
 import java.util.Properties;
 
-import org.jclouds.abiquo.config.AbiquoAuthenticationModule;
-import org.jclouds.abiquo.config.AbiquoHttpApiModule;
+import org.jclouds.aliyun.config.AbiquoAuthenticationModule;
+import org.jclouds.aliyun.config.AbiquoHttpApiModule;
 import org.jclouds.apis.ApiMetadata;
 import org.jclouds.rest.internal.BaseHttpApiMetadata;
 

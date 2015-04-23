@@ -14,21 +14,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jclouds.abiquo.config;
-
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
-
-import javax.inject.Qualifier;
+package org.jclouds.aliyun.config;
 
 /**
- * Qualifies an authentication object.
+ * Configuration properties and constants used in Abiquo connections.
  */
-@Retention(value = RetentionPolicy.RUNTIME)
-@Target(value = { ElementType.TYPE, ElementType.FIELD, ElementType.PARAMETER, ElementType.METHOD })
-@Qualifier
-public @interface Authentication {
+public final class AbiquoProperties {
+   /**
+    * Credential type to be used to authenticate against the Abiquo Api.
+    * <p>
+    * Valid values: password, token (deprecated).
+    */
+   public static final String CREDENTIAL_TYPE = "abiquo.credential-type";
 
+   /**
+    * The name of the Abiquo logger.
+    */
+   public static final String ABIQUO_LOGGER = "jclouds.abiquo";
+
+   private AbiquoProperties() {
+      throw new AssertionError("intentionally unimplemented");
+   }
 }

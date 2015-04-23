@@ -14,10 +14,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jclouds.abiquo.config;
+package org.jclouds.aliyun.config;
 
-import org.jclouds.abiquo.AbiquoApi;
-import org.jclouds.abiquo.handlers.AbiquoErrorHandler;
+import org.jclouds.aliyun.AbiquoApi;
+import org.jclouds.aliyun.handlers.AbiquoErrorHandler;
 import org.jclouds.http.HttpErrorHandler;
 import org.jclouds.http.annotation.ClientError;
 import org.jclouds.http.annotation.Redirection;
