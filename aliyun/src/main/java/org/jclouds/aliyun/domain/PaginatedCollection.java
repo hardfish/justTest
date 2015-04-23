@@ -1,8 +1,6 @@
 package org.jclouds.aliyun.domain;
 
-/**
- * Created by Administrator on 2015/4/23.
- */
+
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -23,7 +21,7 @@ package org.jclouds.aliyun.domain;
 import com.google.common.base.Optional;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Multimap;
-import org.jclouds.aliyun.v20150301.options.PaginationOptions;
+import org.jclouds.aliyun.options.PaginationOptions;
 import org.jclouds.collect.IterableWithMarker;
 import org.jclouds.javax.annotation.Nullable;
 

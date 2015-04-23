@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/aliyun/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/aliyun/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/aliyun-ecs/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/docker/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

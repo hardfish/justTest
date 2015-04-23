@@ -32,6 +32,10 @@ import org.jclouds.rest.config.HttpApiModule;
 public class AliyunHttpApiModule extends HttpApiModule<AliyunApi> {
 
    @Override
+   protected void configure() {
+      super.configure();
+   }
+   @Override
    protected void bindErrorHandlers() {
       bind(HttpErrorHandler.class).annotatedWith(Redirection.class).to(AliyunErrorHandler.class);
       bind(HttpErrorHandler.class).annotatedWith(ClientError.class).to(AliyunErrorHandler.class);

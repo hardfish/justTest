@@ -2,13 +2,13 @@
 *****************************************************
 Summary
 -------
-Generated at: 2015-04-23T19:41:28+08:00
+Generated at: 2015-04-23T20:49:59+08:00
 Notes: 0
 Binaries: 0
 Archives: 0
-Standards: 17
+Standards: 26
 
-Apache Licensed: 17
+Apache Licensed: 26
 Generated Documents: 0
 
 JavaDocs are generated and so license header is optional
@@ -35,14 +35,23 @@ Archives:
   AL    src/main/java/org/jclouds/aliyun/AliyunApiMetadata.java
   AL    src/main/java/org/jclouds/aliyun/config/AliyunAuthenticationModule.java
   AL    src/main/java/org/jclouds/aliyun/config/AliyunHttpApiModule.java
+  AL    src/main/java/org/jclouds/aliyun/config/AliyunParserModule.java
   AL    src/main/java/org/jclouds/aliyun/config/AliyunProperties.java
   AL    src/main/java/org/jclouds/aliyun/config/Authentication.java
+  AL    src/main/java/org/jclouds/aliyun/domain/Address.java
+  AL    src/main/java/org/jclouds/aliyun/domain/Instance.java
+  AL    src/main/java/org/jclouds/aliyun/domain/Link.java
+  AL    src/main/java/org/jclouds/aliyun/domain/PaginatedCollection.java
+  AL    src/main/java/org/jclouds/aliyun/domain/Resource.java
+  AL    src/main/java/org/jclouds/aliyun/features/InstanceApi.java
   AL    src/main/java/org/jclouds/aliyun/functions/AppendApiVersionToAliyunMimeType.java
   AL    src/main/java/org/jclouds/aliyun/functions/auth/GetTokenFromApi.java
   AL    src/main/java/org/jclouds/aliyun/functions/auth/GetTokenFromCredentials.java
   AL    src/main/java/org/jclouds/aliyun/handlers/AliyunErrorHandler.java
   AL    src/main/java/org/jclouds/aliyun/http/filters/AliyunAuthentication.java
   AL    src/main/java/org/jclouds/aliyun/http/filters/AppendApiVersionToMediaType.java
+  AL    src/main/java/org/jclouds/aliyun/internal/ParseInstances.java
+  AL    src/main/java/org/jclouds/aliyun/options/PaginationOptions.java
   AL    src/test/java/org/jclouds/abiquo/AliyunApiMetadataTest.java
   AL    src/test/java/org/jclouds/abiquo/functions/auth/GetTokenFromApiTest.java
   AL    src/test/java/org/jclouds/abiquo/http/filters/AliyunAuthenticationTest.java

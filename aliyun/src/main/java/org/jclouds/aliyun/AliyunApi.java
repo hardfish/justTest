@@ -16,8 +16,8 @@
  */
 package org.jclouds.aliyun;
 
-import com.sun.javafx.beans.annotations.Delegate;
 import org.jclouds.aliyun.features.InstanceApi;
+import org.jclouds.rest.annotations.Delegate;
 
 import java.io.Closeable;
 

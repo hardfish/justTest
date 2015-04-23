@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1429789287497
+Bnd-LastModified: 1429793399246
 Build-Jdk: 1.7.0_75
 Built-By: X0269
 Bundle-Description: jclouds components to access an implementation of Al
@@ -15,42 +15,63 @@ Created-By: Apache Maven Bundle Plugin
 Export-Package: org.jclouds.aliyun.http.filters;uses:="com.google.common
  .net,org.jclouds.http,com.google.common.base,org.jclouds.aliyun.config,
  javax.inject,com.google.common.collect,org.jclouds.aliyun.functions,org
- .jclouds.io";version="2.0.0.SNAPSHOT",org.jclouds.aliyun;uses:="org.jcl
- ouds.apis,org.jclouds.apis.internal,org.jclouds.rest.internal,com.googl
- e.common.collect,org.jclouds.aliyun.config";version="2.0.0.SNAPSHOT",or
- g.jclouds.aliyun.handlers;uses:="org.jclouds.rest,org.jclouds.http,org.
- jclouds.util,org.jclouds.io,javax.inject";version="2.0.0.SNAPSHOT",org.
- jclouds.aliyun.functions;uses:="com.google.common.base,org.jclouds.rest
- .annotations,javax.inject";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.
+ .jclouds.io";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.domain;uses:="
+ com.google.common.base,com.google.common.collect,org.jclouds.javax.anno
+ tation,javax.inject,org.jclouds.collect,org.jclouds.http.utils,org.jclo
+ uds.aliyun.options";version="2.0.0.SNAPSHOT",org.jclouds.aliyun;uses:="
+ org.jclouds.aliyun.features,org.jclouds.rest.annotations,org.jclouds.ap
+ is,org.jclouds.apis.internal,org.jclouds.rest.internal,com.google.commo
+ n.collect,org.jclouds.aliyun.config";version="2.0.0.SNAPSHOT",org.jclou
+ ds.aliyun.handlers;uses:="org.jclouds.rest,org.jclouds.http,org.jclouds
+ .util,org.jclouds.io,javax.inject";version="2.0.0.SNAPSHOT",org.jclouds
+ .aliyun.functions;uses:="com.google.common.base,org.jclouds.rest.annota
+ tions,javax.inject";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.options
+ ;uses:="com.google.common.collect,com.google.common.base,org.jclouds.ht
+ tp.options";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.features;uses:=
+ "org.jclouds.aliyun.domain,org.jclouds.collect,javax.ws.rs,org.jclouds.
+ aliyun.options,org.jclouds.aliyun.internal,org.jclouds.rest.annotations
+ ,javax.inject,org.jclouds";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.
  functions.auth;uses:="org.jclouds.http,com.google.common.base,org.jclou
  ds.aliyun.config,org.jclouds.providers,javax.annotation,org.jclouds.res
  t,com.google.common.net,com.google.common.collect,org.jclouds.http.filt
  ers,org.jclouds.logging,org.jclouds.domain,javax.inject";version="2.0.0
- .SNAPSHOT",org.jclouds.aliyun.config;uses:="com.google.common.base,com.
- google.common.cache,com.google.common.collect,org.jclouds.aliyun.functi
- ons.auth,org.jclouds.location,org.jclouds.domain,javax.inject,com.googl
- e.inject,org.jclouds.rest,org.jclouds.http,org.jclouds.aliyun.handlers,
- org.jclouds.http.annotation,com.google.inject.binder,org.jclouds.rest.c
- onfig";version="2.0.0.SNAPSHOT"
+ .SNAPSHOT",org.jclouds.aliyun.internal;uses:="org.jclouds.aliyun.domain
+ ,org.jclouds.collect,org.jclouds.aliyun.options,com.google.common.base,
+ org.jclouds.aliyun.features,org.jclouds.aliyun,org.jclouds.collect.inte
+ rnal,javax.inject,org.jclouds.http.functions,org.jclouds.json,com.googl
+ e.inject";version="2.0.0.SNAPSHOT",org.jclouds.aliyun.config;uses:="com
+ .google.common.base,com.google.common.cache,com.google.common.collect,o
+ rg.jclouds.aliyun.functions.auth,org.jclouds.location,org.jclouds.domai
+ n,javax.inject,com.google.inject,org.jclouds.rest,org.jclouds.http,org.
+ jclouds.aliyun.handlers,org.jclouds.http.annotation,com.google.inject.b
+ inder,org.jclouds.rest.config,org.jclouds.javax.annotation,org.jclouds.
+ aliyun.domain,com.google.gson,org.jclouds.json.config";version="2.0.0.S
+ NAPSHOT"
 Implementation-Title: jclouds Aliyun api
 Implementation-Vendor: jclouds
 Implementation-Vendor-Id: org.jclouds
 Implementation-Version: 2.0.0-SNAPSHOT
 Import-Package: com.google.common.base;version="[16.0,17)",com.google.co
  mmon.cache;version="[16.0,17)",com.google.common.collect;version="[16.0
- ,17)",com.google.common.net;version="[16.0,17)",com.google.inject;versi
- on="[1.3,2)",com.google.inject.binder;version="[1.3,2)",javax.annotatio
- n,javax.inject,org.jclouds.apis;version="2.0.0.SNAPSHOT",org.jclouds.ap
- is.internal;version="2.0.0.SNAPSHOT",org.jclouds.domain;version="2.0.0.
- SNAPSHOT",org.jclouds.http;version="2.0.0.SNAPSHOT",org.jclouds.http.an
- notation;version="2.0.0.SNAPSHOT",org.jclouds.http.filters;version="2.0
- .0.SNAPSHOT",org.jclouds.io;version="2.0.0.SNAPSHOT",org.jclouds.locati
- on;version="2.0.0.SNAPSHOT",org.jclouds.logging;version="2.0.0.SNAPSHOT
- ",org.jclouds.providers;version="2.0.0.SNAPSHOT",org.jclouds.rest;versi
- on="2.0.0.SNAPSHOT",org.jclouds.rest.annotations;version="2.0.0.SNAPSHO
- T",org.jclouds.rest.config;version="2.0.0.SNAPSHOT",org.jclouds.rest.in
- ternal;version="2.0.0.SNAPSHOT",org.jclouds.util;version="2.0.0.SNAPSHO
- T"
+ ,17)",com.google.common.net;version="[16.0,17)",com.google.gson;version
+ ="[2.3,3)",com.google.inject;version="[1.3,2)",com.google.inject.binder
+ ;version="[1.3,2)",javax.annotation,javax.inject,javax.ws.rs;version="[
+ 1.1,2)",org.jclouds;version="2.0.0.SNAPSHOT",org.jclouds.apis;version="
+ 2.0.0.SNAPSHOT",org.jclouds.apis.internal;version="2.0.0.SNAPSHOT",org.
+ jclouds.collect;version="2.0.0.SNAPSHOT",org.jclouds.collect.internal;v
+ ersion="2.0.0.SNAPSHOT",org.jclouds.domain;version="2.0.0.SNAPSHOT",org
+ .jclouds.http;version="2.0.0.SNAPSHOT",org.jclouds.http.annotation;vers
+ ion="2.0.0.SNAPSHOT",org.jclouds.http.filters;version="2.0.0.SNAPSHOT",
+ org.jclouds.http.functions;version="2.0.0.SNAPSHOT",org.jclouds.http.op
+ tions;version="2.0.0.SNAPSHOT",org.jclouds.http.utils;version="2.0.0.SN
+ APSHOT",org.jclouds.io;version="2.0.0.SNAPSHOT",org.jclouds.javax.annot
+ ation;version="2.0.0.SNAPSHOT",org.jclouds.json;version="2.0.0.SNAPSHOT
+ ",org.jclouds.json.config;version="2.0.0.SNAPSHOT",org.jclouds.location
+ ;version="2.0.0.SNAPSHOT",org.jclouds.logging;version="2.0.0.SNAPSHOT",
+ org.jclouds.providers;version="2.0.0.SNAPSHOT",org.jclouds.rest;version
+ ="2.0.0.SNAPSHOT",org.jclouds.rest.annotations;version="2.0.0.SNAPSHOT"
+ ,org.jclouds.rest.config;version="2.0.0.SNAPSHOT",org.jclouds.rest.inte
+ rnal;version="2.0.0.SNAPSHOT",org.jclouds.util;version="2.0.0.SNAPSHOT"
 Specification-Title: jclouds jclouds Aliyun api
 Specification-Vendor: jclouds
 Specification-Version: 2.0.0-SNAPSHOT
